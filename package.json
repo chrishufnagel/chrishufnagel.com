@@ -13,7 +13,7 @@
 		"zip": "del-cli build && mkdir build && rsync -av --exclude='templates' --exclude='.git' --exclude='node_modules' --exclude='build' ./ build && cd build && zip -r ../rckbs-child.zip . && cd .. && del-cli build"
 	},
 	"devDependencies": {
-		"@wordpress/scripts": "^19.2.4",
+		"@wordpress/scripts": "^30.12.0",
 		"archiver": "^7.0.1",
 		"copy-webpack-plugin": "^11.0.0",
 		"del-cli": "^5.1.0",
