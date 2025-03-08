@@ -1,0 +1,1 @@
+console.log('You are using a Rockbase child theme! Edit the files in /src/js/example.js to add functionality.');
