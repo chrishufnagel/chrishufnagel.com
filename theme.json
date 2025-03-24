@@ -254,7 +254,7 @@
         },
         "useRootPaddingAwareAlignments": true,
         "layout": {
-            "contentSize": "680px",
+            "contentSize": "620px",
             "wideSize": "960px"
         }
     },
