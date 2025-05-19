@@ -1,25 +1,25 @@
 {
-	"name": "rckbs-child",
-	"description": "Rockbase Child Theme",
-	"author": "Rockbase LLC",
-	"license": "GPL-3.0-or-later",
-	"scripts": {
-		"start:css": "sass --watch src/scss:assets/css --no-source-map",
-		"start:js": "wp-scripts start --webpack-src-dir=src --output-path=assets/dist",
-		"start": "npm run start:css & npm run start:js",
-		"build:css": "sass src/scss:assets/css --style compressed --no-source-map",
-		"build:js": "wp-scripts build --webpack-src-dir=src --output-path=assets/dist",
-		"build": "npm run build:js && npm run build:css",
-		"zip": "del-cli build && mkdir build && rsync -av --exclude='templates' --exclude='.git' --exclude='node_modules' --exclude='build' ./ build && cd build && zip -r ../rckbs-child.zip . && cd .. && del-cli build"
-	},
-	"devDependencies": {
-		"@wordpress/scripts": "^19.2.4",
-		"archiver": "^7.0.1",
-		"copy-webpack-plugin": "^11.0.0",
-		"del-cli": "^5.1.0",
-		"glob": "^10.2.6",
-		"path": "^0.12.7",
-		"sass": "^1.77.8",
-		"webpack-remove-empty-scripts": "^1.0.4"
-	}
+  "name": "rckbs-child",
+  "description": "CH Theme Theme",
+  "author": "Rockbase LLC",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "start:css": "sass --watch src/scss:assets/css --no-source-map",
+    "start:js": "wp-scripts start --webpack-src-dir=src --output-path=assets/dist",
+    "start": "npm run start:css & npm run start:js",
+    "build:css": "sass src/scss:assets/css --style compressed --no-source-map",
+    "build:js": "wp-scripts build --webpack-src-dir=src --output-path=assets/dist",
+    "build": "npm run build:js && npm run build:css",
+    "zip": "del-cli build && mkdir build && rsync -av --exclude='templates' --exclude='.git' --exclude='node_modules' --exclude='build' ./ build && cd build && zip -r ../rckbs-child.zip . && cd .. && del-cli build"
+  },
+  "devDependencies": {
+    "@wordpress/scripts": "^30.13.0",
+    "archiver": "^7.0.1",
+    "copy-webpack-plugin": "^11.0.0",
+    "del-cli": "^5.1.0",
+    "glob": "^10.2.6",
+    "path": "^0.12.7",
+    "sass": "^1.77.8",
+    "webpack-remove-empty-scripts": "^1.0.4"
+  }
 }

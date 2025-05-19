@@ -2,7 +2,7 @@
 /**
  * Blocks
  *
- * @package      rckbs_child
+ * @package      ch
  * @author       Chris Hufnagel
  * @since        1.0.0
  * @license      GPL-2.0+

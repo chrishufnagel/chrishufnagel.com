@@ -1,14 +1,14 @@
 <?php
 /**
- * Rockbase Child functions
+ * CH Theme functions
  *
- * @package Rockbase Child
+ * @package CH Theme
  * @author  Rockbase LLC
  * @license GNU General Public License v2 or later
  * @link    https://rockbase.co
  */
 
-namespace rckbs_child;
+namespace ch;
 
 /**
  * Load customizations
@@ -16,7 +16,7 @@ namespace rckbs_child;
  * Adds custom includes for custom functionality.
  * Delete if not needed.
  */
-function rckbs_child_load_customizations() {
+function ch_load_customizations() {
 
 	add_editor_style( '/assets/css/main.css' );
 
@@ -27,7 +27,7 @@ function rckbs_child_load_customizations() {
 	require_once get_stylesheet_directory() . '/inc/acf-config.php';
 
 }
-add_action( 'after_setup_theme', __NAMESPACE__ . '\rckbs_child_load_customizations' );
+add_action( 'after_setup_theme', __NAMESPACE__ . '\ch_load_customizations' );
 
 /**
  * Load scripts and styles
@@ -35,7 +35,7 @@ add_action( 'after_setup_theme', __NAMESPACE__ . '\rckbs_child_load_customizatio
  * Adds custom stylesheet.
  * Adds custom scripts.
  */
-function enqueue_rckbs_child_scripts() {
+function enqueue_ch_scripts() {
 
 	$front_script_asset = include get_theme_file_path( 'assets/dist/js/front.asset.php'  );
 
@@ -55,17 +55,17 @@ function enqueue_rckbs_child_scripts() {
 	);
 
 }
-add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_rckbs_child_scripts' );
+add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\enqueue_ch_scripts' );
 
 /**
- * Enqueues the Rockbase Child editor assets
+ * Enqueues the CH Theme editor assets
  *
  * This function is used to enqueue the Rockbase editor assets in the WordPress theme.
  *
  * @package rckbs
  * @since 1.0.0
  */
-function rckbs_child_block_editor_assets() {
+function ch_block_editor_assets() {
 
 	$editor_script_asset = include get_theme_file_path( 'assets/dist/js/editor.asset.php'  );
 
@@ -77,4 +77,4 @@ function rckbs_child_block_editor_assets() {
 		true
 	);
 }
-add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\rckbs_child_block_editor_assets' );
+add_action( 'enqueue_block_editor_assets', __NAMESPACE__ . '\ch_block_editor_assets' );

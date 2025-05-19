@@ -1,4 +1,4 @@
-=== Rockbase Child Theme ===
+=== CH Theme Theme ===
 Contributors: chrishufnagel, rafaltomal
 Requires at least: 6.6
 Tested up to: 6.6

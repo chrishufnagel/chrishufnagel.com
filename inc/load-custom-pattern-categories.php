@@ -16,8 +16,8 @@ function register_custom_pattern_categories() {
 	register_block_pattern_category(
 		'rckbs-child',
 		array(
-			'label'       => __( 'Rockbase Child', __NAMESPACE__ ),
-			'description' => __( 'Custom patterns for the Rockbase Child theme.', 'jasonfeifer' ),
+			'label'       => __( 'CH Theme', __NAMESPACE__ ),
+			'description' => __( 'Custom patterns for the CH Theme theme.', 'jasonfeifer' ),
 		)
 	);
 }
