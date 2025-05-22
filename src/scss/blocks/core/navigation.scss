@@ -1,0 +1,9 @@
+@import "../../index";
+
+// Adjust buttons in nav
+.wp-block-navigation {
+  .wp-element-button,
+  .wp-block-button__link {
+    padding: 0.45rem 0.8rem 0.32rem 0.8rem;
+  }
+}
