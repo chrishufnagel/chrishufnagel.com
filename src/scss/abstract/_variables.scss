@@ -16,13 +16,13 @@ $color-foreground-3: var(--wp--preset--color--foreground-3);
 $color-foreground-4: var(--wp--preset--color--foreground-4);
 
 // Spacing
-$spacing-xs: var(--wp--preset--spacing--x-small);
-$spacing-s: var(--wp--preset--spacing--small);
-$spacing-m: var(--wp--preset--spacing--medium);
-$spacing-l: var(--wp--preset--spacing--large);
-$spacing-xl: var(--wp--preset--spacing--x-large);
-$spacing-xxl: var(--wp--preset--spacing--xx-large);
-$spacing-giant: var(--wp--preset--spacing--giant);
+$spacing-xs: var(--wp--preset--spacing--20);
+$spacing-s: var(--wp--preset--spacing--40);
+$spacing-m: var(--wp--preset--spacing--30);
+$spacing-l: var(--wp--preset--spacing--50);
+$spacing-xl: var(--wp--preset--spacing--60);
+$spacing-xxl: var(--wp--preset--spacing--80);
+$spacing-giant: var(--wp--preset--spacing--100);
 
 // Font Family
 $font-family-base: var(--wp--preset--font-family--base);
