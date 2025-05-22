@@ -1,0 +1,7 @@
+@import "../../index";
+
+.wp-block-group.has-background.alignwide {
+  max-width: calc($wide-size + (2 * $spacing-giant)) !important;
+  padding-left: $spacing-giant;
+  padding-right: $spacing-giant;
+}

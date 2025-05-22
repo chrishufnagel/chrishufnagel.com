@@ -1,0 +1,5 @@
+.wp-block-group.has-background.alignwide {
+  max-width: calc(var(--wp--style--global--wide-size) + 2 * var(--wp--preset--spacing--100)) !important;
+  padding-left: var(--wp--preset--spacing--100);
+  padding-right: var(--wp--preset--spacing--100);
+}
